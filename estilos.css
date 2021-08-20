@@ -1,0 +1,56 @@
+html, body {
+
+    /* bgc */
+    background-color: violet;
+    background-color: #ffaa00;
+    background-color: rgb(157, 9, 243);
+
+    /* m0 */
+    margin: 0;
+    /* p0 */
+    padding: 0;
+
+}
+
+
+
+.principal {
+    /* p32 */
+    padding: 32px;
+}
+
+
+.character {
+    /* bgc */
+    background-color: #fff;
+    /* w300 */
+    width: 300px;
+    /* bxsh */
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.character .image,
+.character .image img {
+    /* w100p */
+    width: 100%;
+}
+
+
+.character .info {
+    /* p16 */
+    padding: 16px;
+}
+
+
+footer.pie {
+    /* posf */
+    position: fixed;
+    /* b0 */
+    bottom: 0;
+    /* w100p */
+    width: 100%;
+    /* p16 */
+    padding: 16px;
+    /* bgc */
+    background-color: #333;
+}
